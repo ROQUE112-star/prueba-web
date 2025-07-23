@@ -1,0 +1,132 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif; 
+  line-height: 2; 
+  background-color: #b5ccc9;
+  color: #504e4e; 
+}
+
+.titulo {
+  background-color: #716c58;
+  color: #b5ccc9;
+  padding: 20px; /*espaciado interno*/
+  display: flex; /*usa flexbox para organizar contenido*/
+  justify-content: space-between; /*espacia los elementos del header*/
+  align-items: center; /*alinea verticalmente los elementos*/
+  flex-wrap: wrap; /*permite que los elementos bajen de línea si es necesario*/
+}
+
+.navegacion a {
+  color: #fff; /*texto blanco*/
+  margin-left: 20px; /*espacio entre los enlaces*/
+  text-decoration: none; /*quita el subrayado*/
+  font-weight: bold; /*letra en negrita*/
+}
+
+
+
+/* Sección principal de bienvenida */
+.pagina  {
+  background-color: #8a8552; /*fondo azul brillante*/
+  color: #33342c; /*texto blanco*/
+  text-align: center; /*centra el texto*/
+  padding: 80px 20px; /*espaciado interno amplio*/
+}
+
+/* Título dentro del hero */
+.pagina h2 {
+  font-size: 2.5rem; /*tamaño grande para el título*/
+}
+
+/* Botón principal de llamado a la acción */
+#cambiables {
+  display: inline-block; /*permite aplicar márgenes y paddings*/
+  margin-top: 20px; /*espacio superior*/
+  background-color: #584d3a; /*color verde*/
+  color: white; /*texto blanco*/
+  padding: 12px 24px; /*espaciado interno*/
+  border: none;
+  border-radius: 8px; /*bordes redondeados*/
+  text-decoration: none; /*sin subrayado*/
+  font-weight: bold; /*texto en negrita*/
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#cambiables:hover {
+  background-color: #baaf8d;
+  transform: scale(1.1); /* Se agranda ligeramente */
+}
+
+.btn {
+  display: inline-block; /*permite aplicar márgenes y paddings*/
+  margin-top: 20px; /*espacio superior*/
+  background-color: #584d3a; /*color verde*/
+  color: white; /*texto blanco*/
+  padding: 12px 24px; /*espaciado interno*/
+  border: none;
+  border-radius: 8px; /*bordes redondeados*/
+  text-decoration: none; /*sin subrayado*/
+  font-weight: bold; /*texto en negrita*/
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #baaf8d;
+  transform: scale(1.1); /* Se agranda ligeramente */
+}
+
+/* Secciones de características, beneficios y formulario */
+.funcionalidades, .lista {
+  padding: 50px 20px; /*espaciado interno general*/
+  text-align: center; /*centra el contenido*/
+}
+
+/* Contenedor de las tarjetas */
+.tarjetas {
+  display: flex; /*usa flexbox*/
+  flex-wrap: wrap; /*permite que las tarjetas bajen si no hay espacio*/
+  justify-content: center; /*centra las tarjetas*/
+  gap: 30px; /*espacio entre tarjetas*/
+  margin-top: 30px; /*espacio arriba del grupo de tarjetas*/
+}
+
+/* Cada tarjeta individual */
+.individual {
+  background-color: white; /*fondo blanco*/
+  padding: 20px; /*espaciado interno*/
+  width: 250px; /*ancho fijo*/
+  border-radius: 10px; /*bordes redondeados*/
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /*sombra suave*/
+  transition: transform 0.2s; /*transición de movimiento*/
+}
+
+/* Efecto hover de la tarjeta */
+.individual:hover {
+  transform: translateY(-5px); /*la tarjeta sube levemente*/
+}
+
+/* Lista de beneficios */
+.lista ul {
+  list-style: none; /*quita los íconos de lista*/
+  font-size: 1.2rem; /*tamaño de fuente grande*/
+  line-height: 2; /*espaciado vertical*/
+}
+
+/* Pie de página */
+.final {
+  background-color: #1f2937; /*fondo gris oscuro*/
+  color: #fff; /*texto blanco*/
+  text-align: center; /*centra el texto*/
+  padding: 15px; /*espaciado interno*/
+}
+
+
